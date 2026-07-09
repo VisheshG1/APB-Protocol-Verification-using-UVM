@@ -118,25 +118,35 @@ The functional coverage model includes:
 
 ```text
 .
-├── rtl/
+├── RTL/
 │   ├── APB_slave1.sv
 │   └── APB_slave2.sv
 │
-├── tb/
+├── TB/
 │   ├── interface.sv
-│   ├── packet.sv
-│   ├── sequences.sv
-│   ├── sequencer.sv
-│   ├── driver.sv
-│   ├── monitor.sv
-│   ├── scoreboard.sv
-│   ├── coverage.sv
-│   ├── agent.sv
-│   ├── env.sv
-│   ├── test.sv
-│   └── testbench.sv
+│   ├── testbench.sv
+│   ├── run.do
+│   ├── filelist.f
+│   │
+│   └── TEST/
+│       ├── test.sv
+│       ├── sequences.sv
+│       │
+│       └── ENVIRONMENT/
+│           ├── env.sv
+│           ├── scoreboard.sv
+│           ├── cvrg_col.sv
+│           │
+│           └── AGENT/
+│               ├── agent.sv
+│               ├── packet.sv
+│               ├── seqr.sv
+│               ├── driver.sv
+│               └── monitor.sv
 │
-└── README.md
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ---
