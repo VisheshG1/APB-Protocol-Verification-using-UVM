@@ -1,17 +1,14 @@
-`include "uvm_macros.svh"
-`include "packet.sv"
+`include "TEST/ENVIRONMENT/AGENT/packet.sv"
+`include "TEST/ENVIRONMENT/cvrg_col.sv"
+`include "TEST/ENVIRONMENT/AGENT/seqr.sv"
+`include "TEST/sequences.sv"
+`include "TEST/ENVIRONMENT/AGENT/driver.sv"
+`include "TEST/ENVIRONMENT/AGENT/monitor.sv"
+`include "TEST/ENVIRONMENT/scoreboard.sv"
+`include "TEST/ENVIRONMENT/AGENT/agent.sv"
+`include "TEST/ENVIRONMENT/env.sv"
+`include "TEST/test.sv"
 `include "interface.sv"
-`include "cvrg_col.sv"
-`include "seqr.sv"
-`include "sequencer.sv"
-`include "driver.sv"
-`include "monitor.sv"
-`include "scoreboard.sv"
-`include "agent.sv"
-`include "env.sv"
-`include "test.sv"
-
-
 
 import uvm_pkg::*;
 
