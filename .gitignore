@@ -21,6 +21,7 @@ cov.txt
 *.tmp
 *.bak
 *.orig
+*.f
 
 # OS files
 .DS_Store
