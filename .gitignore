@@ -1,0 +1,27 @@
+# Questa / ModelSim
+work/
+transcript
+vsim.wlf
+*.wlf
+*.ucdb
+*.acdb
+*.vstf
+modelsim.ini
+*.log
+cov.txt
+
+# Vim / GVim
+*.swp
+*.swo
+*.swn
+*~
+.viminfo
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
